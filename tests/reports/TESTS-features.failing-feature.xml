@@ -1,0 +1,16 @@
+<testsuite name="features.failing-feature.Test failing feature" tests="1" errors="0" failures="1" skipped="0" time="0.000256" timestamp="2023-09-05T12:44:41.168598" hostname="debian"><testcase classname="features.failing-feature.Test failing feature" name="Failing test" status="failed" time="0.000256"><failure type="AssertionError" message="0 != 1">
+<![CDATA[
+Failing step: Then this step should fail ... failed in 0.000s
+Location: acceptance/features/failing-feature.feature:9
+Assertion Failed: 0 != 1]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Failing test
+    Given this step exists ... passed in 0.000s
+    Then this step should fail ... failed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

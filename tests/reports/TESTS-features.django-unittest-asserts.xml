@@ -1,0 +1,21 @@
+<testsuite name="features.django-unittest-asserts.Django + unittest asserts" tests="2" errors="0" failures="0" skipped="0" time="0.002167" timestamp="2023-09-05T12:44:41.142333" hostname="debian"><testcase classname="features.django-unittest-asserts.Django + unittest asserts" name="Testing the unittest assert library" status="passed" time="0.000272"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Testing the unittest assert library
+    When I use the unittest assert library ... passed in 0.000s
+    Then it should work properly ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.django-unittest-asserts.Django + unittest asserts" name="Testing the django assert library" status="passed" time="0.001895"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Testing the django assert library
+    When I use the django assert library ... passed in 0.002s
+    Then it should work properly ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,14 @@
+<testsuite name="features.using-pageobject.Using page objects works as documented" tests="1" errors="0" failures="0" skipped="0" time="0.018266" timestamp="2023-09-05T12:44:41.600039" hostname="debian"><testcase classname="features.using-pageobject.Using page objects works as documented" name="Welcome page object returns a valid (Beautiful Soup) document" status="passed" time="0.018266"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Welcome page object returns a valid (Beautiful Soup) document
+    When I instantiate the Welcome page object ... passed in 0.011s
+    Then it provides a valid Beautiful Soup document ... passed in 0.000s
+    And get_link() returns the link subdocument ... passed in 0.001s
+    When I call click() on the link ... passed in 0.004s
+    Then it loads a new PageObject ... passed in 0.003s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

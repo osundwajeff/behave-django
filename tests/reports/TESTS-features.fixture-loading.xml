@@ -1,0 +1,44 @@
+<testsuite name="features.fixture-loading.Fixture loading" tests="4" errors="0" failures="1" skipped="0" time="0.004046" timestamp="2023-09-05T12:44:41.438325" hostname="debian"><testcase classname="features.fixture-loading.Fixture loading" name="Load fixtures" status="passed" time="0.00104"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Load fixtures
+    Then the fixture should be loaded ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.fixture-loading.Fixture loading" name="Load fixtures for this scenario and feature" status="passed" time="0.001456"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Load fixtures for this scenario and feature
+    Then the fixture for the second scenario should be loaded ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.fixture-loading.Fixture loading" name="Load fixtures then reset sequences" status="failed" time="0.001455"><failure type="AssertionError" message="3 != 2">
+<![CDATA[
+Failing step: Then the sequences should be reset ... failed in 0.001s
+Location: acceptance/features/fixture-loading.feature:15
+Assertion Failed: 3 != 2]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+
+  @failing
+  Scenario: Load fixtures then reset sequences
+    Then the sequences should be reset ... failed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.fixture-loading.Fixture loading" name="Load fixtures with databases option" status="passed" time="9.5e-05"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Load fixtures with databases option
+    Then databases should be set to all database in the Django settings ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

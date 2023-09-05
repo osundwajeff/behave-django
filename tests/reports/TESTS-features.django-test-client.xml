@@ -1,0 +1,11 @@
+<testsuite name="features.django-test-client.Django's test client" tests="1" errors="0" failures="0" skipped="0" time="0.006227" timestamp="2023-09-05T12:44:41.077599" hostname="debian"><testcase classname="features.django-test-client.Django's test client" name="Django's test client" status="passed" time="0.006227"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Django's test client
+    When I use django's test client to visit "/" ... passed in 0.006s
+    Then it should return a successful response ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,11 @@
+<testsuite name="features.live-test-server.Live server" tests="1" errors="0" failures="0" skipped="0" time="0.004945" timestamp="2023-09-05T12:44:41.481027" hostname="debian"><testcase classname="features.live-test-server.Live server" name="HTTP GET" status="passed" time="0.004945"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: HTTP GET
+    When I visit "/" ... passed in 0.005s
+    Then I should see "Behave Django works" ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

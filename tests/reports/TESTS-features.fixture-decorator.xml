@@ -1,0 +1,31 @@
+<testsuite name="features.fixture-decorator.Fixture loading with decorator" tests="3" errors="0" failures="0" skipped="0" time="0.005297" timestamp="2023-09-05T12:44:41.289717" hostname="debian"><testcase classname="features.fixture-decorator.Fixture loading with decorator" name="Load fixtures with the decorator" status="passed" time="0.002018"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Load fixtures with the decorator
+    Given a step with a fixture decorator ... passed in 0.001s
+    Then the fixture should be loaded ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.fixture-decorator.Fixture loading with decorator" name="A Subsequent scenario should only load its fixtures" status="passed" time="0.001641"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: A Subsequent scenario should only load its fixtures
+    Given a step with a second fixture decorator ... passed in 0.000s
+    Then I should only have one object ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.fixture-decorator.Fixture loading with decorator" name="Load multiple fixtures and callables" status="passed" time="0.001638"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Load multiple fixtures and callables
+    Given a step with multiple fixtures ... passed in 0.000s
+    Then the fixture for the second scenario should be loaded ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

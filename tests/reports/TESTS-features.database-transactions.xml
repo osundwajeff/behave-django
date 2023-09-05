@@ -1,0 +1,21 @@
+<testsuite name="features.database-transactions.Database Transactions" tests="2" errors="0" failures="0" skipped="0" time="0.003694" timestamp="2023-09-05T12:44:41.038625" hostname="debian"><testcase classname="features.database-transactions.Database Transactions" name="Save the first item" status="passed" time="0.001975"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Save the first item
+    When I save the object ... passed in 0.001s
+    Then I should only have one object ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.database-transactions.Database Transactions" name="Save the second item" status="passed" time="0.001719"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Save the second item
+    When I save the object ... passed in 0.001s
+    Then I should only have one object ... passed in 0.001s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
